@@ -43,7 +43,7 @@
 					<a class="nav-link" href="#m_servicos">Serviços</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Orçamentos</a>
+					<a class="nav-link" href="#m_orcamentos">Orçamentos</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">Contato</a>
