@@ -280,101 +280,233 @@
 		
 		<div class="row p-5 m-0 " style="background-color:#EDF1F2;border-top:3px solid gray;">
 			<div class="card-deck mb-3 text-center">
-				<div class="card mb-4 shadow-sm">
-					<div class="card-header">
+				<div class="card mb-4 shadow-sm" style="border-radius:20px;">
+					<div class="card-header" style="border-top-right-radius:20px;border-top-left-radius:20px;background-image: linear-gradient(to right, #92f075,#1fbf76);">
 						<h4 class="my-0 font-weight-normal">INTRO PLAN</h4>
 					</div>
-					<div class="card-body border-pill">
-						<h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mês</small></h1>
+					<div class="card-body">
 						<ul class="list-unstyled mt-3 mb-4">
-							<li>Lorem ipsum dolor sit amet, consectetuer
-							adipiscing elit. Aenean scelerisque metus eget sem.
-							Suspendisse fermentum. Proin diam augue.</li>
-
-						</ul>
-						<button type="button" class="btn btn-lg btn-block btn-outline-primary">R$ 399,90 Mensais</button>
+							<li class="bg-light m-0 mb-1 mt-1 p-1 rounded container border" >
+							<table>
+								<tr>
+									<td class="p-2"><i class="fas fa-check-circle align-middle" style="color:#1fbf76;"></i></td>
+									<td class="text-justify" style="text-indent:50px;font-size:8pt;">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit. Aenean scelerisque metus eget sem.
+										Suspendisse fermentum. Proin diam augue.</td>
+								</tr>
+							</table>								
+							</li>
+						</ul>						
+					</div>
+					<div class="card-footer" style="border:0px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;background-color:white;">						
+						<button type="button" class="btn btn-lg btn-block text-right" style="background-color:#e6e6e6;border-radius:20px;font-weight:bold;">
+							<span class="fas fa-money-bill-wave float-left mt-3" style="color:#1fbf76;"></span> R$ 399,90
+							<br><span style="font-size:10pt;">Mensais</span>
+						</button>
 					</div>
 				</div>
-				<div class="card mb-4 shadow-sm">
-					<div class="card-header">
+				<div class="card mb-4 shadow-sm" style="border-radius:20px;">
+					<div class="card-header" style="border-top-right-radius:20px;border-top-left-radius:20px;background-image: linear-gradient(to right, #92f075,#1fbf76);">
 						<h4 class="my-0 font-weight-normal">STANDARD PLAN</h4>
 					</div>
 					<div class="card-body">
 						<h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mês</small></h1>
 						<ul class="list-unstyled mt-3 mb-4">
-							<li>Lorem ipsum dolor sit amet, consectetuer
-							adipiscing elit. Aenean scelerisque metus eget sem.
-							Suspendisse fermentum. Proin diam augue.</li>
-							<li>Lorem ipsum dolor sit amet, consectetuer
-							adipiscing elit. Aenean scelerisque metus eget sem.
-							Suspendisse fermentum. Proin diam augue.</li>
-							<li>Lorem ipsum dolor sit amet, consectetuer
-							adipiscing elit. Aenean scelerisque metus eget sem.
-							Suspendisse fermentum. Proin diam augue.</li>						
+							<li class="bg-light m-0 mb-1 mt-1 p-1 rounded container border" >
+							<table>
+								<tr>
+									<td class="p-2"><i class="fas fa-check-circle align-middle" style="color:#1fbf76;"></i></td>
+									<td class="text-justify" style="text-indent:50px;font-size:8pt;">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit. Aenean scelerisque metus eget sem.
+										Suspendisse fermentum. Proin diam augue.</td>
+								</tr>
+							</table>								
+							</li>
+							<li class="bg-light m-0 mb-1 mt-1 p-1 rounded container border" >
+							<table>
+								<tr>
+									<td class="p-2"><i class="fas fa-check-circle align-middle" style="color:#1fbf76;"></i></td>
+									<td class="text-justify" style="text-indent:50px;font-size:8pt;">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit. Aenean scelerisque metus eget sem.
+										Suspendisse fermentum. Proin diam augue.</td>
+								</tr>
+							</table>								
+							</li>
+							<li class="bg-light m-0 mb-1 mt-1 p-1 rounded container border" >
+							<table>
+								<tr>
+									<td class="p-2"><i class="fas fa-check-circle align-middle" style="color:#1fbf76;"></i></td>
+									<td class="text-justify" style="text-indent:50px;font-size:8pt;">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit. Aenean scelerisque metus eget sem.
+										Suspendisse fermentum. Proin diam augue.</td>
+								</tr>
+							</table>								
+							</li>
 						</ul>
-						<button type="button" class="btn btn-lg btn-block btn-primary">R$ 1099,90 Mensais</button>
+					</div>
+					<div class="card-footer" style="border:0px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;background-color:white;">						
+						<button type="button" class="btn btn-lg btn-block text-right" style="background-color:#e6e6e6;border-radius:20px;font-weight:bold;">
+							<span class="fas fa-money-bill-wave float-left mt-3" style="color:#1fbf76;"></span> R$ 1099,90
+							<br><span style="font-size:10pt;">Mensais</span>
+						</button>
 					</div>
 				</div>
-				<div class="card mb-4 shadow-sm">
-					<div class="card-header">
+				<div class="card mb-4 shadow-sm" style="border-radius:20px;">
+					<div class="card-header" style="border-top-right-radius:20px;border-top-left-radius:20px;background-image: linear-gradient(to right, #92f075,#1fbf76);">
 						<h4 class="my-0 font-weight-normal">MASTER PLAN</h4>
 					</div>
 					<div class="card-body">
-						<h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mês</small></h1>
+						<h1 class="card-title pricing-card-title">$29 <small class="text-muted" >/ mês</small></h1>
 						<ul class="list-unstyled mt-3 mb-4">
-							<li>Lorem ipsum dolor sit amet, consectetuer
-							adipiscing elit. Aenean scelerisque metus eget sem.
-							Suspendisse fermentum. Proin diam augue.</li>
-							<li>Lorem ipsum dolor sit amet, consectetuer
-							adipiscing elit. Aenean scelerisque metus eget sem.
-							Suspendisse fermentum. Proin diam augue.</li>
-							<li>Lorem ipsum dolor sit amet, consectetuer
-							adipiscing elit. Aenean scelerisque metus eget sem.
-							Suspendisse fermentum. Proin diam augue.</li>
-							<li>Lorem ipsum dolor sit amet, consectetuer
-							adipiscing elit. Aenean scelerisque metus eget sem.
-							Suspendisse fermentum. Proin diam augue.</li>
-							<li>Lorem ipsum dolor sit amet, consectetuer
-							adipiscing elit. Aenean scelerisque metus eget sem.
-							Suspendisse fermentum. Proin diam augue.</li>							
-						</ul>
-						<button type="button" class="btn btn-lg btn-block btn-primary">R$14.299,99 AA</button>
+							<li class="bg-light m-0 mb-1 mt-1 p-1 rounded container border" >
+							<table>
+								<tr>
+									<td class="p-2"><i class="fas fa-check-circle align-middle" style="color:#1fbf76;"></i></td>
+									<td class="text-justify" style="text-indent:50px;font-size:8pt;">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit. Aenean scelerisque metus eget sem.
+										Suspendisse fermentum. Proin diam augue.</td>
+								</tr>
+							</table>								
+							</li>
+							<li class="bg-light m-0 mb-1 mt-1 p-1 rounded container border" >
+							<table>
+								<tr>
+									<td class="p-2"><i class="fas fa-check-circle align-middle" style="color:#1fbf76;"></i></td>
+									<td class="text-justify" style="text-indent:50px;font-size:8pt;">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit. Aenean scelerisque metus eget sem.
+										Suspendisse fermentum. Proin diam augue.</td>
+								</tr>
+							</table>								
+							</li>
+							<li class="bg-light m-0 mb-1 mt-1 p-1 rounded container border" >
+							<table>
+								<tr>
+									<td class="p-2"><i class="fas fa-check-circle align-middle" style="color:#1fbf76;"></i></td>
+									<td class="text-justify" style="text-indent:50px;font-size:8pt;">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit. Aenean scelerisque metus eget sem.
+										Suspendisse fermentum. Proin diam augue.</td>
+								</tr>
+							</table>								
+							</li>
+							<li class="bg-light m-0 mb-1 mt-1 p-1 rounded container border" >
+							<table>
+								<tr>
+									<td class="p-2"><i class="fas fa-check-circle align-middle" style="color:#1fbf76;"></i></td>
+									<td class="text-justify" style="text-indent:50px;font-size:8pt;">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit. Aenean scelerisque metus eget sem.
+										Suspendisse fermentum. Proin diam augue.</td>
+								</tr>
+							</table>								
+							</li>
+							<li class="bg-light m-0 mb-1 mt-1 p-1 rounded container border" >
+							<table>
+								<tr>
+									<td class="p-2"><i class="fas fa-check-circle align-middle" style="color:#1fbf76;"></i></td>
+									<td class="text-justify" style="text-indent:50px;font-size:8pt;">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit. Aenean scelerisque metus eget sem.
+										Suspendisse fermentum. Proin diam augue.</td>
+								</tr>
+							</table>								
+							</li>
+						</ul>						
 					</div>
+					<div class="card-footer" style="border:0px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;background-color:white;">						
+						<button type="button" class="btn btn-lg btn-block text-right" style="background-color:#e6e6e6;border-radius:20px;font-weight:bold;">
+							<span class="fas fa-money-bill-wave float-left mt-3" style="color:#1fbf76;"></span> R$14.299,99
+							<br><span style="font-size:10pt;">AA</span>
+						</button>
+					</div>					
 				</div>
-				<div class="card mb-4 shadow-sm">
-					<div class="card-header">
+				<div class="card mb-4 shadow-sm" style="border-radius:20px;">
+					<div class="card-header" style="border-top-right-radius:20px;border-top-left-radius:20px;background-image: linear-gradient(to right, #92f075,#1fbf76);">
 						<h4 class="my-0 font-weight-normal">PARTNER PLAN</h4>
 					</div>
 					<div class="card-body">
 						<h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mês</small></h1>
 						<ul class="list-unstyled mt-3 mb-4">
-							<li>Lorem ipsum dolor sit amet, consectetuer
-							adipiscing elit. Aenean scelerisque metus eget sem.
-							Suspendisse fermentum. Proin diam augue.</li>
-							<li>Lorem ipsum dolor sit amet, consectetuer
-							adipiscing elit. Aenean scelerisque metus eget sem.
-							Suspendisse fermentum. Proin diam augue.</li>
-							<li>Lorem ipsum dolor sit amet, consectetuer
-							adipiscing elit. Aenean scelerisque metus eget sem.
-							Suspendisse fermentum. Proin diam augue.</li>
-							<li>Lorem ipsum dolor sit amet, consectetuer
-							adipiscing elit. Aenean scelerisque metus eget sem.
-							Suspendisse fermentum. Proin diam augue.</li>
-							<li>Lorem ipsum dolor sit amet, consectetuer
-							adipiscing elit. Aenean scelerisque metus eget sem.
-							Suspendisse fermentum. Proin diam augue.</li>
-							<li>Lorem ipsum dolor sit amet, consectetuer
-							adipiscing elit. Aenean scelerisque metus eget sem.
-							Suspendisse fermentum. Proin diam augue.</li>							
+							<li class="bg-light m-0 mb-1 mt-1 p-1 rounded container border" >
+							<table>
+								<tr>
+									<td class="p-2"><i class="fas fa-check-circle align-middle" style="color:#1fbf76;"></i></td>
+									<td class="text-justify" style="text-indent:50px;font-size:8pt;">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit. Aenean scelerisque metus eget sem.
+										Suspendisse fermentum. Proin diam augue.</td>
+								</tr>
+							</table>								
+							</li>
+							<li class="bg-light m-0 mb-1 mt-1 p-1 rounded container border" >
+							<table>
+								<tr>
+									<td class="p-2"><i class="fas fa-check-circle align-middle" style="color:#1fbf76;"></i></td>
+									<td class="text-justify" style="text-indent:50px;font-size:8pt;">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit. Aenean scelerisque metus eget sem.
+										Suspendisse fermentum. Proin diam augue.</td>
+								</tr>
+							</table>								
+							</li>
+							<li class="bg-light m-0 mb-1 mt-1 p-1 rounded container border" >
+							<table>
+								<tr>
+									<td class="p-2"><i class="fas fa-check-circle align-middle" style="color:#1fbf76;"></i></td>
+									<td class="text-justify" style="text-indent:50px;font-size:8pt;">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit. Aenean scelerisque metus eget sem.
+										Suspendisse fermentum. Proin diam augue.</td>
+								</tr>
+							</table>								
+							</li>
+							<li class="bg-light m-0 mb-1 mt-1 p-1 rounded container border" >
+							<table>
+								<tr>
+									<td class="p-2"><i class="fas fa-check-circle align-middle" style="color:#1fbf76;"></i></td>
+									<td class="text-justify" style="text-indent:50px;font-size:8pt;">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit. Aenean scelerisque metus eget sem.
+										Suspendisse fermentum. Proin diam augue.</td>
+								</tr>
+							</table>								
+							</li>
+							<li class="bg-light m-0 mb-1 mt-1 p-1 rounded container border" >
+							<table>
+								<tr>
+									<td class="p-2"><i class="fas fa-check-circle align-middle" style="color:#1fbf76;"></i></td>
+									<td class="text-justify" style="text-indent:50px;font-size:8pt;">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit. Aenean scelerisque metus eget sem.
+										Suspendisse fermentum. Proin diam augue.</td>
+								</tr>
+							</table>								
+							</li>
+							<li class="bg-light m-0 mb-1 mt-1 p-1 rounded container border" >
+							<table>
+								<tr>
+									<td class="p-2"><i class="fas fa-check-circle align-middle" style="color:#1fbf76;"></i></td>
+									<td class="text-justify" style="text-indent:50px;font-size:8pt;">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit. Aenean scelerisque metus eget sem.
+										Suspendisse fermentum. Proin diam augue.</td>
+								</tr>
+							</table>								
+							</li>
 						</ul>
-						<button type="button" class="btn btn-lg btn-block btn-primary">R$16.799,99 AA</button>
+						
 					</div>
+					<div class="card-footer" style="border:0px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;background-color:white;">						
+						<button type="button" class="btn btn-lg btn-block text-right" style="background-color:#e6e6e6;border-radius:20px;font-weight:bold;">
+							<span class="fas fa-money-bill-wave float-left mt-3" style="color:#1fbf76;"></span> R$ 16.799,99
+							<br><span style="font-size:10pt;">AA</span>
+						</button>
+					</div>										
 				</div>
 			</div>
 			<div class="container-fluid p-4" style="background-color:white;">
 				<h4>Alguma dúvida?</h4> Mande agora mesmo para sanar qualquer questão
-				<input type="text" class="form-control">
-				<button type="submit" class="btn btn-lg btn-block btn-success">Enviar</button>
+				<form >
+					<div class="row">
+						<div class="col-8">
+							<input type="text" class="form-control" placeholder="Escreva aqui (máx: 300 characteres)">
+						</div>
+						<div class="col-4">
+							<button type="submit" class="btn btn-primary mb-2">Confirmar identidade</button>
+						</div>
+					</div>
+				</form>
 				
 			</div>
 		</div>
