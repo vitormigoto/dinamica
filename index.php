@@ -299,7 +299,7 @@
 						</ul>						
 					</div>
 					<div class="card-footer" style="border:0px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;background-color:white;">						
-						<button type="button" class="btn btn-lg btn-block text-right" style="background-color:#e6e6e6;border-radius:20px;font-weight:bold;">
+						<button onclick="window.open('area_cliente/index.php?pacote=1');" type="button" class="btn btn-lg btn-block text-right" style="background-color:#e6e6e6;border-radius:20px;font-weight:bold;">
 							<span class="fas fa-money-bill-wave float-left mt-3" style="color:#1fbf76;"></span> R$ 399,90
 							<br><span style="font-size:10pt;">Mensais</span>
 						</button>
@@ -310,7 +310,6 @@
 						<h4 class="my-0 font-weight-normal">STANDARD PLAN</h4>
 					</div>
 					<div class="card-body">
-						<h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mês</small></h1>
 						<ul class="list-unstyled mt-3 mb-4">
 							<li class="bg-light m-0 mb-1 mt-1 p-1 rounded container border" >
 							<table>
@@ -345,7 +344,7 @@
 						</ul>
 					</div>
 					<div class="card-footer" style="border:0px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;background-color:white;">						
-						<button type="button" class="btn btn-lg btn-block text-right" style="background-color:#e6e6e6;border-radius:20px;font-weight:bold;">
+						<button onclick="window.open('area_cliente/index.php?pacote=2');" type="button" class="btn btn-lg btn-block text-right" style="background-color:#e6e6e6;border-radius:20px;font-weight:bold;">
 							<span class="fas fa-money-bill-wave float-left mt-3" style="color:#1fbf76;"></span> R$ 1099,90
 							<br><span style="font-size:10pt;">Mensais</span>
 						</button>
@@ -356,7 +355,6 @@
 						<h4 class="my-0 font-weight-normal">MASTER PLAN</h4>
 					</div>
 					<div class="card-body">
-						<h1 class="card-title pricing-card-title">$29 <small class="text-muted" >/ mês</small></h1>
 						<ul class="list-unstyled mt-3 mb-4">
 							<li class="bg-light m-0 mb-1 mt-1 p-1 rounded container border" >
 							<table>
@@ -411,7 +409,7 @@
 						</ul>						
 					</div>
 					<div class="card-footer" style="border:0px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;background-color:white;">						
-						<button type="button" class="btn btn-lg btn-block text-right" style="background-color:#e6e6e6;border-radius:20px;font-weight:bold;">
+						<button onclick="window.open('area_cliente/index.php?pacote=3');" type="button" class="btn btn-lg btn-block text-right" style="background-color:#e6e6e6;border-radius:20px;font-weight:bold;">
 							<span class="fas fa-money-bill-wave float-left mt-3" style="color:#1fbf76;"></span> R$14.299,99
 							<br><span style="font-size:10pt;">AA</span>
 						</button>
@@ -422,7 +420,6 @@
 						<h4 class="my-0 font-weight-normal">PARTNER PLAN</h4>
 					</div>
 					<div class="card-body">
-						<h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mês</small></h1>
 						<ul class="list-unstyled mt-3 mb-4">
 							<li class="bg-light m-0 mb-1 mt-1 p-1 rounded container border" >
 							<table>
@@ -488,7 +485,7 @@
 						
 					</div>
 					<div class="card-footer" style="border:0px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;background-color:white;">						
-						<button type="button" class="btn btn-lg btn-block text-right" style="background-color:#e6e6e6;border-radius:20px;font-weight:bold;">
+						<button onclick="window.open('area_cliente/index.php?pacote=4');" type="button" class="btn btn-lg btn-block text-right" style="background-color:#e6e6e6;border-radius:20px;font-weight:bold;">
 							<span class="fas fa-money-bill-wave float-left mt-3" style="color:#1fbf76;"></span> R$ 16.799,99
 							<br><span style="font-size:10pt;">AA</span>
 						</button>
@@ -496,14 +493,14 @@
 				</div>
 			</div>
 			<div class="container-fluid p-4" style="background-color:white;">
-				<h4>Alguma dúvida?</h4> Mande agora mesmo para sanar qualquer questão
+				<h3 class="d-inline" style="color:#1fbf76;">Alguma dúvida?</h3> <b>Mande agora mesmo para sanar qualquer questão</b>
 				<form >
 					<div class="row">
 						<div class="col-8">
 							<input type="text" class="form-control" placeholder="Escreva aqui (máx: 300 characteres)">
 						</div>
 						<div class="col-4">
-							<button type="submit" class="btn btn-primary mb-2">Confirmar identidade</button>
+							<button type="submit" class="btn btn-primary mb-2 pl-5 pr-5" style="border:0px; background-image: linear-gradient(to right, #92f075,#1fbf76);">Enviar</button>
 						</div>
 					</div>
 				</form>
